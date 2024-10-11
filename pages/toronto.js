@@ -6,6 +6,7 @@ import Hero from "../components/Toronto/Hero";
 import About from "../components/Toronto/About";
 import Guilds from "../components/Toronto/Guilds";
 import Steps from "../components/Toronto/Steps";
+import Email from "../components/Toronto/Email";
 import Faq from "../components/Toronto/Faq";
 import Footer from "../components/Toronto/Footer";
 
@@ -106,6 +107,7 @@ export default function HongKong() {
           <About />
           <Guilds />
           <Steps />
+          <Email />
 
           <div className="flex flex-col justify-center py-12 text-center faq fusion-pixel">
             <div className="m-6">
