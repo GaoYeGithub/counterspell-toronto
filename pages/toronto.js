@@ -10,8 +10,9 @@ import Locations from "../components/Toronto/Locations";
 import Faq from "../components/Toronto/Faq";
 import Sponsor from "../components/Toronto/Sponsor"
 import Footer from "../components/Toronto/Footer";
-//import Teamgallery from "../components/Toronto/Teamgallery";
+import Teamgallery from "../components/Toronto/Teamgallery";
 import CountdownTimer from "../components/Toronto/CountdownTimer";
+import Gallery from "../components/Toronto/gallery";
 
 export default function Toronto() {
   const [docHeight, setDocHeight] = useState(0);
@@ -119,7 +120,8 @@ export default function Toronto() {
           <Steps/>
           <Locations/>
           <Sponsor/>
-
+          <Teamgallery />
+          <Gallery />  
           <div className="bg-[#00001E] flex flex-col justify-center py-12 text-center faq fusion-pixel">
             <div className="m-6">
               <p className="mb-6 text-5xl uppercase">
